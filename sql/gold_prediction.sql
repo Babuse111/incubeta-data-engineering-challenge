@@ -1,3 +1,13 @@
+
+-- ============================================================================
+-- Incubeta Data Engineering Challenge
+-- Gold Layer: Customer Segmentation Prediction
+-- Author: Happy Sibusiso Ndlovu
+-- Description:
+-- Applies the trained BQML model to the Silver layer and generates the
+-- analytics_customer_segments table.
+-- ============================================================================
+
 CREATE OR REPLACE TABLE `incubeta-data-engineer.retail_gold.analytics_customer_segments` AS
 SELECT
   transaction_id,
