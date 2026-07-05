@@ -1,3 +1,17 @@
+
+-- ============================================================================
+-- Incubeta Data Engineering Challenge
+-- Silver Layer: Data Cleansing & Transformation
+-- Author: Happy Sibusiso Ndlovu
+-- Description:
+-- Cleans the Bronze layer by:
+--   - Converting data types
+--   - Handling missing values
+--   - Filtering invalid transactions
+--   - Creating days_to_first_purchase
+-- ============================================================================
+
+
 CREATE OR REPLACE TABLE `incubeta-data-engineer.retail_silver.cleaned_transactions` AS
 SELECT
   transaction_id,
