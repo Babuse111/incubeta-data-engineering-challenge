@@ -1,3 +1,11 @@
+-- ============================================================================
+-- Incubeta Data Engineering Challenge
+-- Gold Layer: BQML Model Training
+-- Author: Happy Sibusiso Ndlovu
+-- Description:
+-- Trains a BigQuery ML K-Means clustering model using amount and item_category.
+-- ============================================================================
+
 CREATE OR REPLACE MODEL `incubeta-data-engineer.retail_gold.customer_segments_model`
 OPTIONS(
   model_type = 'kmeans',
