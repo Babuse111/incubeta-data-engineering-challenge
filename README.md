@@ -73,6 +73,14 @@ In a production environment, this pipeline would be orchestrated using Dataform 
 4. Gold prediction table generation
 
 ---
+## AI Usage
+
+ChatGPT was used to assist with:
+- SQL query refinement and debugging
+- Documentation (README)
+- Repository organization
+
+All SQL statements were reviewed, executed, and validated in Google BigQuery. The final implementation, testing, and verification of outputs were completed manually before submission.
 
 ## Author
 
